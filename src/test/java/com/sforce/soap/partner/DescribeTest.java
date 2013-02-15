@@ -18,9 +18,9 @@ import static org.junit.Assert.assertNotNull;
 @RunWith(Parameterized.class)
 public class DescribeTest {
 
-    private static final String ENDPOINT = "xxx";
-    private static final String USER = "xxx";
-    private static final String PASSWORD = "xxx";
+    private static final String ENDPOINT = "https://na7.salesforce.com/services/Soap/u/26.0";
+    private static final String USER = "dpham@na7.test.salesforce.com";
+    private static final String PASSWORD = "salesforce123456";
     private static PartnerConnection partnerConnection;
     private final String objectToTest;
 
@@ -28,7 +28,7 @@ public class DescribeTest {
         this.objectToTest = objectToTest;
     }
 
-    @Parameterized.Parameters(name = "Describe {0}")
+    @Parameterized.Parameters(name = "Describe{0}")
     public static Collection<Object[]> data() throws Exception {
         createPartnerConnection();
         loginAndSetSessionHeader();
