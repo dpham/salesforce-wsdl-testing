@@ -36,12 +36,12 @@ public class DescribeTest {
 
 //<<<<<<< HEAD
 //    private static final String ENDPOINT = "https://na7.salesforce.com/services/Soap/u/26.0";
-//    private static final String USER = "dpham@na7.test.salesforce.com";
-//    private static final String PASSWORD = "salesforce123456";
+    private static final String USER = "dpham@na7.test.salesforce.com";
+    private static final String PASSWORD = "salesforce123456";
 //=======
     private static final Logger LOGGER = Logger.getLogger(DescribeTest.class);
-    private static final String USER = "api@api.entity.test.org";
-    private static final String PASSWORD = "123456";
+//    private static final String USER = "api@api.entity.test.org";
+//    private static final String PASSWORD = "123456";
     private static final File DATA_DIRECTORY = new File("data");
     private static final File ERROR_DIRECTORY = new File("error");
     private static final String DATE_FORMAT = "yyyyMMddHHmmssZ";
